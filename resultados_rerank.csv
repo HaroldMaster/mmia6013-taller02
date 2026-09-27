@@ -1,0 +1,17 @@
+id,tipo,respondible,modelo_embeddings,k,posicion,hit,reciprocal_rank,score_top1,abstuvo,generador,retrieved_ids
+1,simple,True,BAAI/bge-m3 + ms-marco-MiniLM-L6-v2,3,,False,0.0,2.744410514831543,,,wei-2022-chain-of-thought-0044 wei-2022-chain-of-thought-0020 wei-2022-chain-of-thought-0055
+2,simple,True,BAAI/bge-m3 + ms-marco-MiniLM-L6-v2,3,1,True,1.0,3.9652650356292725,,,vaswani-2017-attention-is-all-you-need-0007 vaswani-2017-attention-is-all-you-need-0003 vaswani-2017-attention-is-all-you-need-0004
+3,simple,True,BAAI/bge-m3 + ms-marco-MiniLM-L6-v2,3,1,True,1.0,2.6425728797912598,,,reimers-2019-sentence-bert-0001 reimers-2019-sentence-bert-0000 reimers-2019-sentence-bert-0002
+4,multi-chunk,True,BAAI/bge-m3 + ms-marco-MiniLM-L6-v2,3,1,True,1.0,4.848372459411621,,,rafailov-2023-dpo-0002 rafailov-2023-dpo-0003 ouyang-2022-instructgpt-0005
+5,multi-chunk,True,BAAI/bge-m3 + ms-marco-MiniLM-L6-v2,3,1,True,1.0,5.159149646759033,,,doersch-2016-tutorial-vae-0015 doersch-2016-tutorial-vae-0002 doersch-2016-tutorial-vae-0024
+6,multi-chunk,True,BAAI/bge-m3 + ms-marco-MiniLM-L6-v2,3,2,True,0.5,4.892356872558594,,,es-2023-ragas-0012 es-2023-ragas-0005 es-2023-ragas-0002
+9,adversarial,True,BAAI/bge-m3 + ms-marco-MiniLM-L6-v2,3,,False,0.0,2.7411937713623047,,,ouyang-2022-instructgpt-0004 brown-2020-gpt3-0045 brown-2020-gpt3-0010
+10,simple,True,BAAI/bge-m3 + ms-marco-MiniLM-L6-v2,3,,False,0.0,2.1295738220214844,,,ouyang-2022-instructgpt-0024 ouyang-2022-instructgpt-0006 ouyang-2022-instructgpt-0035
+1,simple,True,BAAI/bge-m3 + ms-marco-MiniLM-L6-v2,5,,False,0.0,2.744410514831543,,,wei-2022-chain-of-thought-0044 wei-2022-chain-of-thought-0020 wei-2022-chain-of-thought-0055 wei-2022-chain-of-thought-0003 wei-2022-chain-of-thought-0043
+2,simple,True,BAAI/bge-m3 + ms-marco-MiniLM-L6-v2,5,1,True,1.0,3.9652650356292725,,,vaswani-2017-attention-is-all-you-need-0007 vaswani-2017-attention-is-all-you-need-0003 vaswani-2017-attention-is-all-you-need-0004 vaswani-2017-attention-is-all-you-need-0006 vaswani-2017-attention-is-all-you-need-0015
+3,simple,True,BAAI/bge-m3 + ms-marco-MiniLM-L6-v2,5,1,True,1.0,2.6425728797912598,,,reimers-2019-sentence-bert-0001 reimers-2019-sentence-bert-0000 reimers-2019-sentence-bert-0002 reimers-2019-sentence-bert-0021 reimers-2019-sentence-bert-0013
+4,multi-chunk,True,BAAI/bge-m3 + ms-marco-MiniLM-L6-v2,5,1,True,1.0,4.848372459411621,,,rafailov-2023-dpo-0002 rafailov-2023-dpo-0003 ouyang-2022-instructgpt-0005 ouyang-2022-instructgpt-0006 rafailov-2023-dpo-0019
+5,multi-chunk,True,BAAI/bge-m3 + ms-marco-MiniLM-L6-v2,5,1,True,1.0,5.159149646759033,,,doersch-2016-tutorial-vae-0015 doersch-2016-tutorial-vae-0002 doersch-2016-tutorial-vae-0024 doersch-2016-tutorial-vae-0001 doersch-2016-tutorial-vae-0026
+6,multi-chunk,True,BAAI/bge-m3 + ms-marco-MiniLM-L6-v2,5,2,True,0.5,4.892356872558594,,,es-2023-ragas-0012 es-2023-ragas-0005 es-2023-ragas-0002 es-2023-ragas-0000 gao-2023-rag-survey-0038
+9,adversarial,True,BAAI/bge-m3 + ms-marco-MiniLM-L6-v2,5,4,True,0.25,2.7411937713623047,,,ouyang-2022-instructgpt-0004 brown-2020-gpt3-0045 brown-2020-gpt3-0010 brown-2020-gpt3-0017 brown-2020-gpt3-0012
+10,simple,True,BAAI/bge-m3 + ms-marco-MiniLM-L6-v2,5,,False,0.0,2.1295738220214844,,,ouyang-2022-instructgpt-0024 ouyang-2022-instructgpt-0006 ouyang-2022-instructgpt-0035 brown-2020-gpt3-0062 brown-2020-gpt3-0069
