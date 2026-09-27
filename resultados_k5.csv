@@ -1,0 +1,11 @@
+id,tipo,respondible,modelo_embeddings,k,posicion,hit,reciprocal_rank,score_top1,abstuvo,generador,retrieved_ids
+1,simple,True,BAAI/bge-m3,5,,False,0.0,0.6483547,True,ollama:qwen3:1.7b,wei-2022-chain-of-thought-0002 wei-2022-chain-of-thought-0055 wei-2022-chain-of-thought-0020 wei-2022-chain-of-thought-0004 wei-2022-chain-of-thought-0043
+2,simple,True,BAAI/bge-m3,5,1,True,1.0,0.7047794,False,ollama:qwen3:1.7b,vaswani-2017-attention-is-all-you-need-0007 vaswani-2017-attention-is-all-you-need-0000 vaswani-2017-attention-is-all-you-need-0003 vaswani-2017-attention-is-all-you-need-0002 vaswani-2017-attention-is-all-you-need-0004
+3,simple,True,BAAI/bge-m3,5,1,True,1.0,0.66744035,False,ollama:qwen3:1.7b,reimers-2019-sentence-bert-0002 reimers-2019-sentence-bert-0001 reimers-2019-sentence-bert-0000 reimers-2019-sentence-bert-0003 reimers-2019-sentence-bert-0022
+4,multi-chunk,True,BAAI/bge-m3,5,1,True,1.0,0.6647745,False,ollama:qwen3:1.7b,rafailov-2023-dpo-0025 ouyang-2022-instructgpt-0006 rafailov-2023-dpo-0022 rafailov-2023-dpo-0003 ouyang-2022-instructgpt-0003
+5,multi-chunk,True,BAAI/bge-m3,5,1,True,1.0,0.6732677,False,ollama:qwen3:1.7b,doersch-2016-tutorial-vae-0015 doersch-2016-tutorial-vae-0002 doersch-2016-tutorial-vae-0005 doersch-2016-tutorial-vae-0000 doersch-2016-tutorial-vae-0014
+6,multi-chunk,True,BAAI/bge-m3,5,,False,0.0,0.5973845,True,ollama:qwen3:1.7b,es-2023-ragas-0012 lewis-2020-rag-0042 es-2023-ragas-0000 es-2023-ragas-0002 gao-2023-rag-survey-0033
+7,negativo,False,BAAI/bge-m3,5,,,,0.56836665,True,ollama:qwen3:1.7b,ouyang-2022-instructgpt-0083 ouyang-2022-instructgpt-0084 ouyang-2022-instructgpt-0082 rafailov-2023-dpo-0001 rafailov-2023-dpo-0000
+8,negativo,False,BAAI/bge-m3,5,,,,0.5498142,True,ollama:qwen3:1.7b,wei-2022-chain-of-thought-0015 lewis-2020-rag-0003 gao-2023-rag-survey-0026 gao-2023-rag-survey-0005 gao-2023-rag-survey-0010
+9,adversarial,True,BAAI/bge-m3,5,3,True,0.3333333333333333,0.5608846,,modo inspección (sin clave ni Ollama),brown-2020-gpt3-0100 brown-2020-gpt3-0012 brown-2020-gpt3-0017 brown-2020-gpt3-0088 brown-2020-gpt3-0046
+10,simple,True,BAAI/bge-m3,5,3,True,0.3333333333333333,0.63863814,False,ollama:qwen3:1.7b,ouyang-2022-instructgpt-0024 ouyang-2022-instructgpt-0025 ouyang-2022-instructgpt-0004 ouyang-2022-instructgpt-0032 ouyang-2022-instructgpt-0006
